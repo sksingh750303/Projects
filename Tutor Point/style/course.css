@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#bg {
+    background: url("../img/background-954312_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+.navbar-expand-lg {
+    padding-top: 60px;
+}
+
+nav {
+    background: transparent;
+}
+
+.nav-link,
+.navbar-brand {
+    color: aliceblue;
+    margin: 2px 18px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.btn_login {
+    width: 145px;
+    border-radius: none;
+}
+
+.courses {
+    height: 60px;
+    width: 300px;
+    margin: 6px;
+    margin-left: 80px;
+    padding: 10px;
+}
+
+.search2 {
+    background-color: #d82a4e;
+    color: white;
+    box-sizing: border-box;
+    margin: 0px 600px;
+    height: 50px;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.search {
+    background-color: #d82a4e;
+    margin: 0px 116px;
+    margin-bottom: 115px;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.btn {
+    height: 45px;
+    margin-left: 80px;
+    width: 250px;
+}

@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-image: url("../img/highway-4494907_1920.jpg");
+    height: 30vh;
+}
+
+.navbar2 {
+    background-image: url("../img/highway-4494907_1920.jpg");
+}
+
+.titleoftitle {
+    color: white;
+    font-weight: 300;
+}
+
+.titleoftitle:hover {
+    color: white;
+}
+
+.button_btm:hover {
+    background-color: #FF5454;
+}
+
+.pagination {
+    margin-bottom: 0px;
+    margin-left: 70px;
+    padding-bottom: 0px;
+    background-color: black;
+    padding: 0px;
+    margin-right: 100px;
+    border-top: 0px;
+}
+
+nav ul li .page-link {
+    background-color: #3B3B3B;
+    border: 1px solid black;
+    color: #D9DADB;
+    height: 60px;
+    font-size: smaller;
+    font-weight: 100;
+    text-transform: uppercase;
+    border-radius: 0px;
+}
+
+nav ul li .page-link:hover {
+    background-color: #FF5454;
+    border: 1.5px solid black;
+    color: #D9DADB;
+}
+
+nav ul li .page-link.active {
+    background-color: #FF5454;
+    border: none;
+    color: #D9DADB;
+}
+
+.footer_btm {
+    color: #FF5454;
+}
+
+.footer_btm:hover {
+    color: black;
+}

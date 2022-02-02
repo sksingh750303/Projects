@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    height: 100px;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    z-index: 1031;
+}
+
+.nav-link {
+    color: #777777;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: whitesmoke
+}
+
+.active:hover {
+    color: white;
+}

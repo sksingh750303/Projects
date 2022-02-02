@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#bg {
+    background: url("../img/dragonfly-5639879_1920.jpg");
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+}
+
+.navbar-expand-lg {
+    padding-top: 60px;
+}
+
+nav {
+    background: transparent;
+}
+
+.nav-link,
+.navbar-brand {
+    color: aliceblue;
+    margin: 2px 18px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.btn_login {
+    width: 145px;
+    border-radius: none;
+}
+
+.courses {
+    height: 60px;
+    width: 374px;
+    margin: 6px;
+    margin-left: 17px;
+    padding: 10px;
+}
+
+.search2 {
+    background-color: #d82a4e;
+    color: white;
+    box-sizing: border-box;
+    margin: 0px 350px;
+    height: 50px;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.search {
+    background-color: #d82a4e;
+    margin: 0px 116px;
+    margin-bottom: 115px;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.reg {
+    background-color: #d82a4e;
+    margin: 0px 116px;
+    margin-bottom: 115px;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.course {
+    width: fit-content;
+    max-width: 480px;
+    padding: 70px 8px;
+    background-color: white;
+    margin: 0px 41px;
+}
+
+.btn {
+    height: 45px;
+    margin-left: 100px;
+}
+
+.contact-list li:after {
+    content: "";
+    background: #d82a4e;
+}

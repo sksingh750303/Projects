@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-link {
+    color: #777777;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: whitesmoke
+}
+
+.active:hover {
+    color: white;
+}

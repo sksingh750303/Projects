@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: #D9DADB;
+}
+
+.navbar2 {
+    background-color: #D9DADB;
+}
+
+.titleoftitle {
+    color: black;
+    font-weight: 300;
+}
+
+.titleoftitle:hover {
+    color: black;
+}
+
+.button_btm:hover {
+    background-color: #FF5454;
+}
+
+.pagination {
+    margin-bottom: 0px;
+    margin-left: 70px;
+    padding-bottom: 0px;
+    background-color: black;
+    padding: 0px;
+    margin-right: 100px;
+    border-top: 0px;
+}
+
+nav ul li .page-link {
+    background-color: #3B3B3B;
+    border: 1px solid black;
+    color: #D9DADB;
+    height: 60px;
+    font-size: smaller;
+    font-weight: 100;
+    text-transform: uppercase;
+    border-radius: 0px;
+}
+
+nav ul li .page-link:hover {
+    background-color: #FF5454;
+    border: 1.5px solid black;
+    color: #D9DADB;
+}
+
+nav ul li .page-link.active {
+    background-color: #FF5454;
+    border: none;
+    color: #D9DADB;
+}
+
+#carousel {
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/highway-4494907_1920.jpg");
+}
+
+.carousel-item {
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+.forum {
+    background-color: #D9DADB;
+}
+
+.col-sm {
+    text-align: center;
+    padding-top: 60px;
+}
+
+div .col-sm button {
+    color: #3B3B3B;
+}
+
+#carousel div div div button {
+    color: #3B3B3B;
+    border: 2px solid #FF5454;
+}
+
+#carousel div div div button:hover {
+    color: white;
+    background-color: #FF5454;
+}
+
+div .col-sm a {
+    color: #3B3B3B;
+    font-size: 30px;
+}
+
+.fa-cog,
+.fa-shield,
+.fa-globe,
+.fa-laptop {
+    font-size: 70px;
+}
+
+.card {
+    color: black;
+}
+
+.card-tile {
+    font-size: 25px;
+}
+
+.card-title:hover {
+    color: #FF5454;
+}
