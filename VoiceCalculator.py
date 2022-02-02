@@ -1,9 +1,12 @@
+# Import audio pyhton librabry
 import pyttsx3
 
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
+
+# function for text to speak
 
 
 def speak(audio):
@@ -23,21 +26,21 @@ print("for multiplication press 3:")
 print("for division press 4:")
 
 speak(" for Add press 1:, for Substraction press 2:,  for multiplication press 3:, for division press 4:")
-num7 = int(input("Enter your fraction Number "))
+fractionNo = int(input("Enter your fraction Number "))
 
-if num7 == 1:
+if fractionNo == 1:
     add = num1+num2
     print(" Your answer is......", add)
     speak(f" Your answer is......{add}")
-elif num7 == 2:
+elif fractionNo == 2:
     sub = num1-num2
     print(" Your answer is......", sub)
     speak(f" Your answer is......{sub}")
-elif num7 == 3:
+elif fractionNo == 3:
     mul = num1*num2
     print(" Your answer is......", mul)
     speak(f" Your answer is......{mul}")
-elif num7 == 4:
+elif fractionNo == 4:
     div = num1/num2
     print(" Your answer is......", div)
     speak(f" Your answer is......{div}")
